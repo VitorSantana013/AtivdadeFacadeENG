@@ -26,6 +26,9 @@ public class Combo {
             sobremesa.setPreco(20.00);
             sobremesa.setDescricao("Sobremesa: Açai - " + sobremesa.getTamanho() + " R$" + sobremesa.getPreco());
         }
+        else {
+            System.out.println("Erro!");
+        }
         return tipo;
     }
     @Override
